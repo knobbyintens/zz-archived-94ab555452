@@ -1,0 +1,8 @@
+[project]
+name = "nettlewood"
+version = "2.4.0rc1"
+description = "Checkpointed task orchestration for reproducible Python data pipelines"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
